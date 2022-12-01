@@ -1,10 +1,10 @@
-#include <stdio.h>
 //Matrix rotation clockwise at 90 degrees
 /*
 20 10 00  current_row_index = 0, i = 2, 1, 0 
 21 11 01 current_row_index = 1, i = 2, 1, 0 
 22 12 02  current_row_index = 2, i = 2, 1, 0
 */
+#include <stdio.h>
 #define size 4
 void print(int a[][size])
 {
